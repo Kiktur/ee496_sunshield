@@ -82,3 +82,21 @@ Data flows from the wearable to the mobile app via BLE, while user settings are 
 * **UV Index** 
 * **Remaining Minutes** 
 * **Battery Percentage**
+
+---
+
+## Repository Structure
+- `EE496_EmbeddedSoftware.ino` – ESP32-C6 firmware for UV sensing, timer logic, sleep modes, and BLE communication
+- `ContentView.swift` – Main SwiftUI interface and CoreBluetooth manager for the iOS app
+- `Assets.xcassets` – iOS app image/color assets
+- `Info.plist` – iOS app permissions and configuration
+- `SunShield.xcodeproj` – Xcode project file
+
+---
+
+## Submission Notes
+No training data is included in this submission.
+
+No model files or compiled binaries are included in this submission.
+
+GitHub Repository: https://github.com/Kiktur/ee496_sunshield
